@@ -1,0 +1,68 @@
+body {
+  background-color: whitesmoke;
+  color: #303030;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 20px;
+}
+
+main { 
+  background-color: #f0f0f0;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  border: solid 1px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration-line: overline underline;
+}
+
+ol {
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li:nth-child(odd) {
+  background-color: #e3e3e3;
+  border-radius: 6px;
+}
+
+form {
+  background-color: grey;
+  border-radius: 6px;
+  margin: 0;
+  padding: 10px;
+}
+
+button {
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+input {
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+#initials {
+  width: 40px;
+}
+
+#message {
+  width: 315px;
+}
